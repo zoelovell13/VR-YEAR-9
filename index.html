@@ -10,9 +10,23 @@
  </head>
  <body>
 <a-scene>
-   <a-entity environment="preset: yavapai; dressingAmount: 500; skyColor:purple; skyType:gradient; horizonColor:blue; fog:0.7;
-   "></a-entity>
- 
+   <a-entity environment="preset: goaland; dressingAmount: 500; skyColor:#07a357; skyType:gradient; horizonColor:#e6176a; fog:0.7; groundColor:#07a357; groundTexture:walkernoise; dressingColor:beige; fog:0.9;   "></a-entity>
+<!--Start of house --> 
+<a-box id="square_floor" position="0  0  0" scale="10.5  10.5  0.1" rotation="90  0  0" color="#07a357"></a-box> id="floor"
+<a-box id="Taha_Hinengaro_wall1" position="0  1.473  4.907" rotation="0 0 0" scale="10 3 0.2" color="#e6176a"></a-box>
+<a-cylinder id="triangle_front" segments-radial="3" position="0 3.874 4.907" rotation="-90 0 0" scale="5.774 0.2 1.8" color="pink"></a-cylinder>
+<a-box id="Taha_Tinana_wall1" position="0  1.473  -4.907"" rotation="0 0 0" scale="10 3 0.2" color="#e6176a"></a-box>
+<a-cylinder id="triangle_back" segments-radial="3" position="0 3.874 -4.907" rotation="-90 0 0" scale="5.774 0.2 1.8" color="pink"></a-cylinder>
+<a-box id="Taha_Whānau_wall1" position="5.049  1.454  -0.008" rotation="0  -90  0" scale="10 3 0.2" color="#e6176a"></a-box>
+<a-box id="roof_left" position="-2.507 4.241 -0.071" rotation="28.433 -90 0" scale="10.931 0.20 6.282" color="silver"></a-box>
+<a-box id="Taha_Wairua_wall1" position="-5.049  1.454  -0.008" rotation="0  -90  0" scale="10 3 0.2" color="#e6176a"></a-box>
+<a-box id="roof_right" position="2.684 4.328 0" rotation="28.433 90 0" scale="10.931 0.20 5.959" color="silver"></a-box>
+<!-- end of house -->
+<!-- start of images -->
+<a-plane id="art1" src="images/dance_vr.jpg" scale="2 2 .05" rotation="0 0 0" position="-0.162
+1.934 -4.792"></a-plane>
+<a-box id="frame" position="0 1.696 -4.841" rotation="0 0 0" scale="3 3 0.2" src="images/frame.png"> <!--This is for the frame–>
+
 </a-scene>
  </body>
 </html>
